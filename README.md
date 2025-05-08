@@ -1,7 +1,7 @@
 
 # Spindle – Login Page
 
-![Status](https://img.shields.io/badge/status-in%20development-yellow)
+![Status](https://img.shields.io/badge/status-concluído-brightgreen)
 ![React](https://img.shields.io/badge/react-v18.0.0-61DAFB)
 
 **Spindle** é um projeto desenvolvido pelo meu squad da **Spin Engenharia**, com o objetivo de criar um **chatbot inteligente** e especializado nas informações internas da empresa.
