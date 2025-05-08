@@ -1,0 +1,196 @@
+/* src/styles/global.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Corpo da Página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9ff;
+}
+
+/* Container Principal */
+.container {
+    width: 900px;
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Seção Esquerda com Logo */
+.left-section {
+    width: 40%;
+    background-color: #e8f4f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 10px 0 0 10px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img {
+    width: 260px;
+    margin: 20px 0;
+}
+
+/* Formulário */
+.form-container {
+    width: 60%;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+}
+
+/* Acessibilidade */
+.accessibility {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accessibility img {
+    width: 27px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+/* Título e Texto Inicial */
+.form-container h2 {
+    font-size: 28px;
+    color: #6b69d6;
+    margin-bottom: 10px;
+}
+
+.form-container p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+/* Links */
+.form-container a {
+    color: #409ad2;
+    text-decoration: none;
+}
+
+.form-container a:hover {
+    text-decoration: underline;
+}
+
+/* Labels e Inputs */
+label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    color: #409ad2;
+    margin: 10px 0 5px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Opções de Login */
+.login-options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+.login-options label {
+    display: flex;
+    align-items: center;
+}
+
+.login-options a {
+    color: #409ad2;
+}
+
+/* Botão */
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #50d8e3;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4ac7cf;
+}
+
+/* Texto "ou" */
+.or-text {
+    display: flex;
+    align-items: center;
+    color: #409ad2;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.or-text::before,
+.or-text::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #409ad2;
+    margin: 0 10px;
+}
+
+/* Login com Redes Sociais */
+.social-login a img {
+    width: 32px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* Rodapé */
+.footer {
+    font-size: 12px;
+    color: #777777;
+    margin-top: 20px;
+}
+
+/* Ícone de Ajuda */
+.help-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.help-icon img {
+    width: 28px;
+}
